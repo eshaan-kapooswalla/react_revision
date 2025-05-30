@@ -9,3 +9,7 @@ console.log(n2);
 const age =[13,15,65,76,19,18];
 const adults = age.filter(age => age >=18);
 console.log(adults);
+
+const age =[13,15,65,76,19,18];
+const adults = age.filter(age => age >=18);
+console.log(adults);

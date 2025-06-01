@@ -1,0 +1,40 @@
+
+/* Individual card styling */
+.card {
+  background-color: #fff0f5;
+  border: 2px solid #ffc0cb;
+  border-radius: 20px;
+  padding: 20px;
+  width: 220px;
+  box-shadow: 0 8px 20px rgba(255, 192, 203, 0.2);
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(255, 182, 193, 0.3);
+}
+
+/* Image inside card */
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+/* Header (name) */
+.card.Header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ff69b4;
+  margin: 10px 0 5px;
+}
+
+/* Description */
+.card.desc {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.4;
+}

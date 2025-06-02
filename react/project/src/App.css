@@ -1,0 +1,5 @@
+/* Example: override default link styles globally */
+a {
+  text-decoration: none;
+  color: inherit;
+}
